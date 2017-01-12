@@ -1,0 +1,83 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.md]
+trim_trailing_whitespace = false
+
+/* basic elements */
+html {
+	margin: 0;
+	padding: 0;
+	}
+
+
+body {
+	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	color: #555753;
+	margin: 0;
+	padding: .5;
+	background-color: #B0C4DE
+	}
+p {
+	margin-top: 0;
+	text-align: justify;
+	}
+
+header h1 {
+	text-align: center;
+    }
+
+h3 {
+	font: italic normal 1.4em georgia, sans-serif;
+
+	letter-spacing: 1px;
+	margin-bottom: 0;
+	color: #7D775C;
+	}
+a:link {
+	font-weight: bold;
+	text-decoration: none;
+	color: #B7A5DF;
+	}
+a:visited {
+	font-weight: bold;
+	text-decoration: none;
+	color: #D4CDDC;
+	}
+a:hover, a:focus, a:active {
+	text-decoration: underline;
+	color: #9685BA;
+	}
+abbr {
+	border-bottom: none;
+	}
+
+
+/* specific divs */
+.page-wrapper {
+	padding: 0 175px 0 110px;
+	margin: 0;
+	position: relative;
+	}
+
+.intro {
+	min-width: 470px;
+	width: 100%;
+	}
+
+
+header {
+	padding-top: 20px;
+	height: 87px;
+}
+
+
+
